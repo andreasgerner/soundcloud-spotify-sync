@@ -7,7 +7,7 @@
 Automatically downloads all new Songs in a given Soundcloud-Playlist and saves them to the `download` directory.
 You need to add this folder as Local File Source in your Spotify Client!
 
-Default schedule: every two hours (combined to one run if logging in after a longer timespan)
+Default schedule: every hour (combined to one run if logging in after a longer timespan)
 
 ## Prerequisites
 
