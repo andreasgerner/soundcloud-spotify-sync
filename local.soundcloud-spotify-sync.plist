@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>Label</key>
-		<string>local.soundcloud-spotify-sync</string>
-		<key>Program</key>
-        <string>PWD/download.sh</string>
-		<key>ProgramArguments</key>
-		<array>
-		    <string>PWD/download.sh</string>
-		    <string>LINK</string>
-		</array>
-		<key>WorkingDirectory</key>
-        <string>PWD/</string>
-        <key>StandardOutPath</key>
-        <string>PWD/download.log</string>
-        <key>StandardErrorPath</key>
-        <string>PWD/download.debug</string>
-		<key>StartInterval</key>
-        <integer>3600</integer>
-	</dict>
+        <dict>
+            <key>Label</key>
+            <string>local.soundcloud-spotify-sync</string>
+            <key>Program</key>
+            <string>PWD/download.sh</string>
+            <key>ProgramArguments</key>
+            <array>
+                <string>PWD/download.sh</string>
+                <string>LINK</string>
+            </array>
+            <key>WorkingDirectory</key>
+            <string>PWD/</string>
+            <key>StandardOutPath</key>
+            <string>PWD/download.log</string>
+            <key>StandardErrorPath</key>
+            <string>PWD/download.debug</string>
+            <key>StartInterval</key>
+            <integer>3600</integer>
+        </dict>
 </plist>
